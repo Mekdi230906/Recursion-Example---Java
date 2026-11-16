@@ -1,3 +1,10 @@
+/*
+This is the new version of the old tree.java
+there are more methods in here than in the older one.
+Why I do not just commit the change of the old files?
+Becuase I had fixed a lot of functions, including in the first file.
+And I do not want to lost track my original idea which is the tree.java (Sorry I am still learning using git ;) )
+*/
 public class updatedTree {
     public static void main(String[] args) {
         Node root = new Node(50);
