@@ -110,7 +110,7 @@ public class excersiceTree {
     }
 
     public static Node build(Node root, int[] array, int low, int hi){
-        if(root != null){
+        if(root != null){ // root will be null, that us why newBinTree will give 4 as an output
           int midpoint = array.length / 2;
         root = new Node(array[midpoint]);
         root.left = build(root.left, array, low, midpoint);
